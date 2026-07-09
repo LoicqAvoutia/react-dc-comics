@@ -1,10 +1,42 @@
 
-.body{
+.underbody{
     background-color: black;
-    height: 120px;
+    min-height: 560px;
     text-align: center;
     padding: 40px;
 }
 h1{
     color: white;
+}
+
+.catalogo{
+    min-height: 440px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.catalog-link{
+    flex-basis: 160px;
+}
+.catalog-link h3{
+    color: white;
+}
+.catalog-link img{
+    height: 130px;
+}
+.underbody button{
+    height: 25px;
+    width: 140px;
+    background-color: #2196F3;
+    margin-bottom: 0;
+}
+.upperbody{
+    background-image: url(../public/img/jumbotron.jpg);
+    height: 290px
+}
+.debug{
+    border: 1px solid red;
+}
+.debug2{
+    border: 1px solid gold;
 }
